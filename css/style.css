@@ -331,7 +331,6 @@ display: inline-block;
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
-
 }
 .twitter__icon{
   position: absolute;
@@ -345,4 +344,34 @@ display: inline-block;
   font-weight: lighter;
   color: #ffffff;
   line-height:1.7;
+}
+.johndoe{
+  background-image: url("../img/photo/johndoe-bg.png");
+  background-color: #353f46;
+}
+.johndoe__flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 42px;
+  justify-content: space-between;
+}
+.johndoe__flex__block{
+  width: 48%;
+
+}
+.johndoe__flex__block__text{
+  font-size:14px;
+  color: #ffffff;
+  line-height: 1.5;
+  font-family:'Segoe UI' ;
+}
+.johndoe__container{
+  padding-top:100px ;
+  padding-bottom: 176px;
+}
+.johndoe__flex__block__icon{
+  width:60px;
+  height:60px;
+  border: 2px solid #ffffff;
+  display: inline-block;
 }
