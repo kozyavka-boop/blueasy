@@ -430,3 +430,66 @@ display: inline-block;
   color: rgb(75, 202, 255);
   font-weight: bold;
 }
+.contact{
+  background-color:#515f67 ;
+  background-image: url("../img/contact_bg.png");
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Segoe UI";
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 42px;
+  justify-content: space-between;
+}
+.form__block{
+  width:48%;
+
+}
+.contact__text{
+  font-size: 14px;
+  font-family: "Segoe UI";
+  color: rgb(255, 255, 255);
+  white-space: pre-line;
+}
+.form__label{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.contact__title{
+  margin-top: 42px;
+}
+.contact__container{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contact__button{
+  background-color:#4bcaff ;
+  border: none;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  font-size:14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 25px 154px;
+  margin-top: 40px;
+}
+.form__input, .form__textarea{
+  background: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+.form__input{
+  width: 90%;
+  margin-top:8px;
+  height: 56px;
+}
+.form__textarea{
+  width: 100%;
+  height: 216px;
+  margin-top: 8px;
+}
