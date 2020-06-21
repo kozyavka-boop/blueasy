@@ -446,6 +446,8 @@ display: inline-block;
 }
 .form__block{
   width:48%;
+  display: flex;
+  align-content: center;
 
 }
 .contact__text{
@@ -453,11 +455,13 @@ display: inline-block;
   font-family: "Segoe UI";
   color: rgb(255, 255, 255);
   white-space: pre-line;
+  line-height: 1.5;
 }
 .form__label{
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
 }
 .contact__title{
   margin-top: 42px;
