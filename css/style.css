@@ -348,6 +348,7 @@ display: inline-block;
 .johndoe{
   background-image: url("../img/photo/johndoe-bg.png");
   background-color: #353f46;
+  background-position: center;
 }
 .johndoe__flex{
   display: flex;
@@ -434,6 +435,7 @@ display: inline-block;
   background-color:#515f67 ;
   background-image: url("../img/contact_bg.png");
   background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   font-family: "Segoe UI";
 }
@@ -480,6 +482,7 @@ display: inline-block;
   text-transform: uppercase;
   padding: 25px 154px;
   margin-top: 40px;
+  cursor: pointer;
 }
 .form__input, .form__textarea{
   background: transparent;
@@ -496,4 +499,31 @@ display: inline-block;
   width: 100%;
   height: 216px;
   margin-top: 8px;
+}
+footer{
+  background-color: #353f47;
+  padding: 80px 0;
+
+}
+.footer__list{
+  list-style: none;
+  color: rgb(81, 95, 103);
+  margin: 0;
+  display: inline-block;
+}
+.footer__list__item{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight:600;
+  display: inline-block;
+  white-space: pre;
+  cursor: pointer;
+}
+.copyright{
+  color: rgb(81, 95, 103);
+  font-size: 12px;
+  font-weight:600;
+  float: right;
+  display: inline-block;
+  margin: 0;
 }
