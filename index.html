@@ -104,27 +104,22 @@
         <div class="johndoe__container container">
           <h2 class="section-header johndoe__title">who is john doe</h2>
           <div class="johndoe__flex">
-            <div class="johndoe__flex__block">
-              <p class="johndoe__flex__block__text">
+              <p class="johndoe__flex-block__text">
                 Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.
               </p>
-            </div>
-            <div class="johndoe__flex__block">
-              <p class="johndoe__flex__block__text">
+              <p class="johndoe__flex-block__text">
                 Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry.
               </p>
-            </div>
-            <div class="johndoe__flex__block">
-              <p class="johndoe__flex__block__text">
+              <p class="johndoe__flex-block__text">
                 Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee
               </p>
-            </div>
-            <div class="johndoe__flex__block">
-              <div class="johndoe__flex__block__icon johndoe__twitter"></div>
-              <div class="johndoe__flex__block__icon johndoe__goodlep"></div>
-              <div class="johndoe__flex__block__icon johndoe__ball"></div>
-              <div class="johndoe__flex__block__icon johndoe__cup"></div>
-            </div>
+              <p class="johndoe__flex-block__text">
+                <a href="#" class="johndoe__flex-block__icon johndoe__twitter"></a>
+                <a href="#" class="johndoe__flex-block__icon johndoe__goodlep"></a>
+                <a href="#" class="johndoe__flex-block__icon johndoe__ball"></a>
+                <a href="#" class="johndoe__flex-block__icon johndoe__cup"></a>
+              </p>
+              
           </div>
         </div>
       </section>
@@ -135,59 +130,51 @@
             Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.
           </p>
           <p class="testi__sign">-Walter White</p>
-          <img src="img/q.png" alt="q__icon" class="testi__icon">
+         <!-- <img src="img/q.png" alt="q__icon" class="testi__icon">-->
         </div>
       </section >
       <section class="contact">
         <div class="container contact__container">
           <h2 class="contact__title section-header">contact</h2>
-          <form action="" class="contact__form">
-            <div class="wrapper">
-              <div class="form__block">
-                <label for="" class="form__label">
-                  full name
-                  <br>
-                  <input type="text" class="form__input">
-                </label>
-              </div>
-              <div class="form__block">
-                <p class="contact__text">Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
-              </div>
-              <div class="form__block">
-                <label class="form__label">
-                  email
-                  <br>
-                  <input type="text" class="form__input">
-                </label>
-              </div>
-              <div class="form__block">
-                <p class="contact__text">Linda Newman
-                  W325 State Road 123
-                  Mondovi, WI(Wisconsin) 98746-54321
-                  (715) 946 - 1234</p>
-              </div>
-              
-            </div>
-            <div class="wrapper" style="margin-top: 0;">
-              <label class="form__label" style="width: 100%;">
-                message
-                <br>
-                <textarea class="form__textarea"></textarea>
+          <form action="#" method="POST" class="contact__form">
+            <div class="form__block">
+              <label class="form__label">
+                full name
+                <input type="text" class="form__input">
               </label>
             </div>
-            <button class="contact__button">
+            <div class="form__block">
+              <p class="contact__text">Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+            </div>
+            <div class="form__block">
+              <label class="form__label">
+                email
+                <input type="text" class="form__input">
+              </label>
+            </div>
+            <div class="form__block">
+              <p class="contact__text">Linda Newman
+                W325 State Road 123
+                Mondovi, WI(Wisconsin) 98746-54321
+                (715) 946 - 1234</p>
+            </div>
+            <label class="form__label m-width-100">
+              message
+              <textarea class="form__textarea"></textarea>
+            </label>
+            <button class="contact__button" type="submit">
               message
             </button>
           </form>
         </div>
       </section>
-      <footer>
+      <footer class="footer">
         <div class="container">
           <ul class="footer__list">
-            <li class="footer__list__item">home   |   </li>
-            <li class="footer__list__item">services   |   </li>
-            <li class="footer__list__item">portfolio   |   </li>
-            <li class="footer__list__item">contact</li>
+            <li class="footer__list__item"><a href="#">home   |   </a></li>
+            <li class="footer__list__item"><a href="#">services   |   </a></li>
+            <li class="footer__list__item"><a href="#">portfolio   |   </a></li>
+            <li class="footer__list__item"><a href="#">contact</a></li>
           </ul>
           <p class="copyright">
             2020 ©
